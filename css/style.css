@@ -2,15 +2,40 @@ html, body {
     font-family: "Kodchasan", sans-serif;
     color: #000;
 }
-
 .wrapper {
     min-height: 100%;
     width: 100%;
     overflow: hidden;
 }
-
 .container {
     max-width: 1260px;
     padding: 0 15px;
     margin: 0 auto;
+}
+/* ############################################################## */
+.header__top-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.header__logo {
+}
+.logo {
+}
+.header__nav {
+}
+.header__nav-list {
+    display: flex;
+}
+.header__nav-item {
+    margin-right: 40px;
+}
+.header__nav-item:last-child {
+    margin-right: 0;
+}
+.header__nav-item:first-child {
+    font-weight: bold;
+}
+.header__nav-link {
 }
