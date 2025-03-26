@@ -17,7 +17,7 @@ html, body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 .header__logo {
 }
@@ -38,4 +38,50 @@ html, body {
     font-weight: bold;
 }
 .header__nav-link {
+    white-space: nowrap;
+}
+/* ############################################################## */
+.header__body {
+    padding: 0 15px;
+}
+.header__container {
+    max-width: 1500px;
+    padding: 0 15px;
+    margin: 0 auto;
+    background: linear-gradient(
+        to right top,
+        #FF9D2D,  
+        #FFD877  
+    );
+    background-attachment: fixed; 
+    border-radius: 30px;
+    position: relative;
+    height: 874px;
+}
+
+.header__container::after {
+    content: '';
+    position: absolute;
+    background: url('../img/bg-logo.svg') no-repeat;
+    width: calc(100% - 89px - 174px); 
+    max-width: 1400px;
+    height: 611px;
+    right: 13px;
+    top: 180px;
+    background-size: contain;
+}
+
+@media (max-width: 768px) {
+    .header__container::after {
+        width: 80%;
+        height: 50%;
+        right: auto;
+        bottom: auto;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+.header__main {}
+.header__content {
 }
