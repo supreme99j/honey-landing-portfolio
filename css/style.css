@@ -177,7 +177,6 @@ html, body {
 }
 
 .finger-licking-honey {
-    font-family: "Kodchasan", sans-serif;
     font-size: 100px;
     font-weight: bold;
     color: #0b0b0b;
@@ -343,4 +342,50 @@ html, body {
 
 .product__item-text {
     display: grid;
+}
+
+/* ############################################################## */
+
+.footer {
+    margin-top: 130px;
+    background: linear-gradient(to right top,
+            #FF9D2D,
+            #FFD877);
+    background-attachment: fixed;
+}
+
+.container-footer {
+    display: flex;
+    height: 137px;
+}
+
+.footer__item {
+    margin: auto 0;
+}
+
+.footer__logo {
+    margin-right: 50px;
+}
+
+.footer__text {
+    width: 269px;
+    height: 47px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 160%;
+    margin-right: 88px;
+}
+
+.social-networks a {
+    margin-right: 40px;
+}
+.social-networks a:last-child {
+    margin-right: 0;
+}
+
+.footer__apps {
+    margin-left: auto;
+}
+.footer__apps-google-play{
+    margin-right: 20px;
 }
