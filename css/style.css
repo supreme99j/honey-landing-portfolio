@@ -57,6 +57,14 @@ html, body {
     background-color: #E58311;
 }
 
+.btn-orange-transparent {
+    color: #e58211;
+    border: 1.50px solid #e58211;
+    padding: 10px 30px;
+    width: 140px;
+    height: 49px;
+}
+
 /* ############################################################## */
 .header__top-inner {
     display: flex;
@@ -219,14 +227,19 @@ html, body {
     max-width: 1467px;
     padding: 0 15px;
     margin: 0 auto;
+    margin-top: 130px;
 }
+
 .content-item {
     display: flex;
     place-items: center;
+    margin-top: 100px;
+    justify-content: space-between;
 }
 
 .content-item img {
-    height: 784px;
+    max-height: 784px;
+    max-width: 60%;
 }
 
 .content-text {
@@ -246,4 +259,88 @@ html, body {
     font-size: 22px;
     line-height: 160%;
     opacity: 0.7;
+}
+
+/* ############################################################## */
+.container-products {
+    margin-top: 100px;
+}
+
+.products-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.products-header h4 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 160%;
+}
+
+.products-header a {
+    margin-top: auto;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 160%;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: right;
+    color: #e58211;
+}
+
+.products {
+    display: flex;
+    margin-top: 50px;
+}
+
+.products h4 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 160%;
+}
+
+.product__item {
+    display: flex;
+    height: 305px;
+    max-width: 50%;
+    width: 50%;
+    margin-right: 15px;
+    background: hsla(33, 89%, 48%, 0.07);
+}
+
+.product__item:last-child {
+    margin-right: 0;
+}
+
+.product__item-text {
+    width: 324px;
+    padding: 45px 0 44px 30px;
+}
+
+.product__item-text h5 {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 140%;
+}
+
+.product__item-text p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 160%;
+    opacity: 0.7;
+}
+
+.product__item-img {
+    text-align: center;
+    margin: 0 auto;
+    padding: 28px 0;
+}
+
+.product__item-img img {
+    height: 100%;
+    width: auto;
+}
+
+.product__item-text {
+    display: grid;
 }
